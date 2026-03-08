@@ -2,8 +2,9 @@
   "name": "carl-azuz-theme",
   "displayName": "Carl Azuz Theme",
   "description": "A VS Code theme with CarlCodes title and optional custom backgrounds.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "HouseLearningorg",
+  "deprecated": true,
   "engines": {
     "vscode": "^1.50.0"
   },
