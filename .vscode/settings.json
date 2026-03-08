@@ -1,0 +1,11 @@
+{
+  "window.title": "CarlCodes — ${activeEditorShort}",
+  "workbench.colorCustomizations": {
+    "editor.background": "#00000000",
+    "sideBar.background": "#00000000"
+  },
+  "workbench.experimental.colorCustomization": {
+    "editor.backgroundImage": "file://${workspaceFolder}/assets/code-bg.png",
+    "sideBar.backgroundImage": "file://${workspaceFolder}/assets/side.png"
+  }
+}
