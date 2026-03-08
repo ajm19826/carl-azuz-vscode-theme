@@ -1,0 +1,19 @@
+/* ===========================
+   EDITOR BACKGROUND
+   =========================== */
+.monaco-editor,
+.monaco-editor .margin,
+.monaco-editor .monaco-editor-background {
+    background: url("assets/code-bg.png") !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+/* ===========================
+   SIDEBAR BACKGROUND
+   =========================== */
+#workbench.parts.sidebar {
+    background: url("assets/side.png") !important;
+    background-size: cover !important;
+    background-position: center !important;
+}

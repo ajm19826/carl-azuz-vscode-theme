@@ -1,20 +1,29 @@
 {
   "name": "carl-azuz-theme",
   "displayName": "Carl Azuz Theme",
-  "description": "A fun VS Code theme with custom backgrounds and the CarlCodes title.",
-  "version": "1.0.0",
+  "description": "A VS Code theme with CarlCodes title and optional custom backgrounds.",
+  "version": "1.0.1",
   "publisher": "HouseLearningorg",
   "engines": {
     "vscode": "^1.50.0"
   },
   "categories": ["Themes"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HouseLearningorg/carl-azuz-vscode-theme.git"
+  },
   "contributes": {
     "themes": [
       {
         "label": "Carl Azuz Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/carl-azuz-color-theme.json"
+        "path": "themes/carl-azuz-color-theme.json"
       }
     ]
-  }
+  },
+  "assets": [
+    "custom.css",
+    "assets/code-bg.png",
+    "assets/side.png"
+  ]
 }
